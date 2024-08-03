@@ -2029,7 +2029,8 @@
     #if ENABLED(KNUTWURST_BMG)
       #define INVERT_E0_DIR true // set to false for stock drivers or TMC2208 with reversed connectors
     #else
-      #define INVERT_E0_DIR false // set to false for stock drivers or TMC2208 with reversed connectors
+      // #define INVERT_E0_DIR false // set to false for stock drivers or TMC2208 with reversed connectors
+      #define INVERT_E0_DIR true // setting this to true because of my non-stock extruder!
     #endif
 
     #define INVERT_E1_DIR false // set to false for stock drivers or TMC2208 with reversed connectors
